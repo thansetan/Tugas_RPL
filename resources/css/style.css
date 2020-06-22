@@ -1,0 +1,223 @@
+  .jumbotron {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  padding: 80px 0;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../../resources/img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.jumbotron h1 { 
+  font-family: 'Varela Round';
+  font-size: calc(40px + (150  - 40) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 8rem;
+  letter-spacing: 0.8rem;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.jumbotron h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+  color:rgba(255, 255, 255, 0.9);
+  opacity:  0.75;
+}
+
+  .after-loop{
+  padding:3rem 0 5rem
+}
+
+.after-loop a.after-loop-item{
+  color:#ffff;
+  position:relative;
+  padding-top:1.5rem;
+  padding-bottom:1.5rem;
+  transition:.15s box-shadow ease,.15s transform ease;
+  -moz-transition:.15s box-shadow ease,.15s transform ease
+}
+
+.after-loop a.after-loop-item .card-body h4{
+font-weight:700;
+}
+
+.after-loop a.after-loop-item .card-body p{
+color:rgba(255,255,255,.7);
+font-weight:600;
+}
+
+.after-loop a.after-loop-item:hover{
+text-decoration:none;
+}
+
+.after-loop .card-templates{
+background-color:#2092ed;
+}
+
+.after-loop .card-snippets{
+background-color:#ffc107;
+}
+
+.after-loop .card-guides{
+background-color:#28a745;
+}
+
+@media(min-width:992px){
+.after-loop a.after-loop-item:hover{
+  transform:translateY(-0.25rem);
+  box-shadow:0 2.25rem 1.5rem -1.5rem rgba(33,37,41,.3),0 0 1.5rem .5rem rgba(33,37,41,.05)!important
+}
+}
+
+
+.footer h4 {
+  max-width: 20rem;
+  font-size: 1rem;
+  color:rgba(255, 255, 255, 0.9);
+  opacity:  0.75;
+  position: center;
+}
+.bg-secondary{
+  overflow-x: hidden;
+}
+
+.register{
+  margin-top: 3%;
+  padding: 3%;
+}
+.register-left{
+  text-align: center;
+  color: #fff;
+  margin-top: 4%;
+}
+.register-left h3,.register-left p{
+  font-family: 'Handlee';
+}
+.register-left input{
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  width: 60%;
+  background: #12a10d;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 13%;
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+.register-right{
+  background: #f8f9fa;
+  border-top-left-radius: 10% 50%;
+  border-bottom-right-radius: 10% 50%;
+}
+.register-left img{
+  margin-top: 15%;
+  margin-bottom: 5%;
+  width: 25%;
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+.register-left p{
+  font-weight: lighter;
+  padding: 12%;
+  margin-top: -9%;
+}
+.register .register-form{
+  padding: 10%;
+  margin-top: 10%;
+}
+.btnRegister{
+  float: right;
+  margin-top: 10%;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  background: #12a10d;
+  color: #fff;
+  font-weight: 600;
+  width: 50%;
+  cursor: pointer;
+}
+.register-heading{
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: -15%;
+  color: #495057;
+}
+
+a.btn-social,
+.btn-social
+{
+    border-radius: 50%;
+    color: #ffffff !important;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: 8px 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .3s;
+    webkit-transition: background-color .3s;
+    width: 30px;
+}
+
+.btn-social .fa,.btn-social i
+{
+    backface-visibility: hidden;
+    moz-backface-visibility: hidden;
+    ms-transform: scale(1);
+    o-transform: scale(1);
+    transform: scale(1);
+    transition: all .25s;
+    webkit-backface-visibility: hidden;
+    webkit-transform: scale(1);
+    webkit-transition: all .25s;
+}
+.btn-social:hover,.btn-social:focus
+{
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+.btn-social:hover .fa,.btn-social:focus .fa,.btn-social:hover i,.btn-social:focus i
+{
+    ms-transform: scale(1.3);
+    o-transform: scale(1.3);
+    transform: scale(1.3);
+    webkit-transform: scale(1.3);
+}
+
+.btn-facebook
+{
+    background-color: #3b5998;
+}
+.btn-facebook:hover
+{
+    background-color: #4c70ba;
+}
+.btn-instagram
+{
+    background-color: #dc00f0;
+}
+.btn-instagram:hover
+{
+    background-color: #f047ff;
+}
+.btn-twitter
+{
+    background-color: #55acee;
+}
+.btn-twitter:hover
+{
+    background-color: #83c3f3;
+}

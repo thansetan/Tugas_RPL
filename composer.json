@@ -1,0 +1,15 @@
+{
+    "name": "thansetan/garment",
+    "description": "-",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thansetan",
+            "email": "fathan072000@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^0.8.5"
+    }
+}
